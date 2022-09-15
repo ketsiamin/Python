@@ -1,0 +1,5 @@
+prod = float(input("Digite o valor do produto: "))
+a = prod - (prod*0.10)
+p = prod + (prod*0.08)
+print ("O produto á vista será de R${:.2f} ".format(a))
+print ("O produto parcelado será de R${:.2f}".format(p))
